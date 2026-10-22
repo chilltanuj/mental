@@ -122,6 +122,31 @@ div.stButton > button:hover, div[data-testid="stFormSubmitButton"] button:hover 
   .hero { padding: 1.1rem; border-radius: 17px; }
   [data-testid="stHorizontalBlock"] { gap: .7rem; }
 }
+
+.stApp,
+.stApp p,
+.stApp label,
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp span {
+    color: #20352d !important;
+}
+
+.hero h1,
+.hero p {
+    color: #ffffff !important;
+}
+
+.stApp [data-testid="stCaptionContainer"] p {
+    color: #53665e !important;
+}
+
+div[data-testid="stFormSubmitButton"] button {
+    background-color: #0d7256 !important;
+    color: #ffffff !important;
+    border-radius: 12px;
+}
 </style>
 """, unsafe_allow_html=True)
 
